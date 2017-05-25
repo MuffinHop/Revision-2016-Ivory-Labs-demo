@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\WindowManager">
+      <UniqueIdentifier>{74cfe3f0-02bc-4904-8dc4-1f84171ccd03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RenderManagement">
+      <UniqueIdentifier>{2907f61e-69e3-400d-9304-a776942623a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ShaderManager">
+      <UniqueIdentifier>{5422433a-1b45-4796-a759-be32ab9ccb17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\VertexManagement">
+      <UniqueIdentifier>{e3dd69d2-56cf-4ed3-b729-4977911feefc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene">
+      <UniqueIdentifier>{28566358-aa4f-443d-ae67-296ff8212bb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TextureManagement">
+      <UniqueIdentifier>{d1deacfb-7a75-48b7-a7a8-5b67eb7a36ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gnurocket">
+      <UniqueIdentifier>{53be8cdf-e4d0-4b58-bb6a-cf15f2f01aa2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="initScreen.cpp">
+      <Filter>Source Files\WindowManager</Filter>
+    </ClCompile>
+    <ClCompile Include="changeViewport.cpp">
+      <Filter>Source Files\WindowManager</Filter>
+    </ClCompile>
+    <ClCompile Include="renderScreen.cpp">
+      <Filter>Source Files\RenderManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="buildFragmentShader.cpp">
+      <Filter>Source Files\ShaderManager</Filter>
+    </ClCompile>
+    <ClCompile Include="buildShaderProgram.cpp">
+      <Filter>Source Files\ShaderManager</Filter>
+    </ClCompile>
+    <ClCompile Include="buildVertexShader.cpp">
+      <Filter>Source Files\ShaderManager</Filter>
+    </ClCompile>
+    <ClCompile Include="readShader.cpp">
+      <Filter>Source Files\ShaderManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files\ShaderManager</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexObject.cpp">
+      <Filter>Source Files\VertexManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\TextureManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sync\data.c">
+      <Filter>Source Files\gnurocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sync\device.c">
+      <Filter>Source Files\gnurocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sync\track.c">
+      <Filter>Source Files\gnurocket</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="superHeader.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="initScreen.hpp">
+      <Filter>Source Files\WindowManager</Filter>
+    </ClInclude>
+    <ClInclude Include="changeViewport.hpp">
+      <Filter>Source Files\WindowManager</Filter>
+    </ClInclude>
+    <ClInclude Include="renderScreen.hpp">
+      <Filter>Source Files\RenderManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="buildFragmentShader.hpp">
+      <Filter>Source Files\ShaderManager</Filter>
+    </ClInclude>
+    <ClInclude Include="buildShaderProgram.hpp">
+      <Filter>Source Files\ShaderManager</Filter>
+    </ClInclude>
+    <ClInclude Include="buildVertexShader.hpp">
+      <Filter>Source Files\ShaderManager</Filter>
+    </ClInclude>
+    <ClInclude Include="readShader.hpp">
+      <Filter>Source Files\ShaderManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.hpp">
+      <Filter>Source Files\ShaderManager</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexObject.hpp">
+      <Filter>Source Files\VertexManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.hpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.hpp">
+      <Filter>Source Files\TextureManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bass.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sync\base.h">
+      <Filter>Source Files\gnurocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sync\data.h">
+      <Filter>Source Files\gnurocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sync\device.h">
+      <Filter>Source Files\gnurocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sync\sync.h">
+      <Filter>Source Files\gnurocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sync\track.h">
+      <Filter>Source Files\gnurocket</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
